@@ -102,7 +102,7 @@ mod "puppet/graphite_powershell", "3.0.2"
 mod "puppetlabs/aws", "2.1.0"
 
 ## i18n, just putting this here created a perf issue in the past
-mod "eputnam/i18ndemo", "0.3.0"
+# mod "eputnam/i18ndemo", "0.3.0"
 mod "puppetlabs/translate", "1.2.0"
 
 ## Use multiple non-root agents to tests load
