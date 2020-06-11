@@ -109,3 +109,7 @@ mod "puppetlabs/translate", "1.2.0"
 mod "clamps",
     git: "https://github.com/puppetlabs/clamps",
     ref: "8602b95c595b92290eb938bb71ad05092805af1e"
+
+## CD4PE
+mod "puppetlabs/cd4pe", :latest
+mod "puppetlabs/puppet_authorization", "0.5.1"

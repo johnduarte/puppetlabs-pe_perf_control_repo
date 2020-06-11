@@ -273,4 +273,10 @@ application::anotherthing::data12: '6fae4865-9b70-4a4f-841e-f4c9f1736557'
 application::anotherthing::data13: '62efc198-5688-49ad-bf5d-d4263d089c98'
 application::anotherthing::data14: '25d8b8d2-5c20-4a1b-97d6-111c18b9b79a'
 
-
+cd4pe::root_config::root_password: 'puppetlabs'
+cd4pe::db_pass: 'puppetlabs'
+lookup_options:
+  cd4pe::root_config::root_password:
+    convert_to: 'Sensitive'
+  cd4pe::db_pass:
+    convert_to: 'Sensitive'
