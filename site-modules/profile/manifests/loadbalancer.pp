@@ -24,7 +24,7 @@ class profile::loadbalancer(
       'log'     => "${::ipaddress} local0",
       'chroot'  => '/var/lib/haproxy',
       'pidfile' => '/var/run/haproxy.pid',
-      'maxconn' => '4000',
+      'maxconn' => '25000',
       'daemon'  => '',
       'stats'   => 'socket /var/lib/haproxy/stats',
     },
@@ -46,7 +46,7 @@ class profile::loadbalancer(
     collect_exported => true,
     options          => {
       'balance' => $balance_type,
-      'maxconn' => '4000',
+      'maxconn' => '25000',
     },
   }
 
@@ -56,7 +56,7 @@ class profile::loadbalancer(
     collect_exported => true,
     options          => {
       'balance' => $balance_type,
-      'maxconn' => '4000',
+      'maxconn' => '25000',
       'timeout' => 'tunnel 15m',
     },
   }
