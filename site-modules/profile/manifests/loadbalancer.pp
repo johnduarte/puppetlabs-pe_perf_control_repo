@@ -24,7 +24,7 @@ class profile::loadbalancer(
       'log'     => "${::ipaddress} local0",
       'chroot'  => '/var/lib/haproxy',
       'pidfile' => '/var/run/haproxy.pid',
-      'maxconn' => '25000',
+      'maxconn' => '50000',
       'daemon'  => '',
       'stats'   => 'socket /var/lib/haproxy/stats',
     },
