@@ -112,4 +112,5 @@ mod "clamps",
 
 ## CD4PE
 mod "puppetlabs/cd4pe", :latest
+mod "puppetlabs/cd4pe_jobs", :latest
 mod "puppetlabs/puppet_authorization", "0.5.1"
