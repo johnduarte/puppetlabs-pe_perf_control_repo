@@ -114,3 +114,9 @@ mod "clamps",
 mod "puppetlabs/cd4pe", :latest
 mod "puppetlabs/cd4pe_jobs", :latest
 mod "puppetlabs/puppet_authorization", "0.5.1"
+
+## CD4PE testing
+mod "test_0001",
+    git: "https://github.com/johnduarte/puppet-simplest"
+mod "test_0002",
+    git: "https://github.com/johnduarte/puppet-simplest"
