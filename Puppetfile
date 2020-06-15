@@ -116,6 +116,8 @@ mod "puppetlabs/cd4pe_jobs", :latest
 mod "puppetlabs/puppet_authorization", "0.5.1"
 
 ## CD4PE testing
+mod "simplest",
+    git: "https://github.com/johnduarte/puppet-simplest"
 mod "test_0001",
     git: "https://github.com/johnduarte/puppet-simplest"
 mod "test_0002",
