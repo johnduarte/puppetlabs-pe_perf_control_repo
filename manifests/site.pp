@@ -30,4 +30,5 @@ node default {
   #   class { 'my_class': }
   notify { "Hi there!": }
   notify { "Bonjour!": }
+  notify { "Hola!": }
 }
