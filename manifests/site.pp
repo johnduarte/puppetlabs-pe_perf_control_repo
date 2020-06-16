@@ -29,4 +29,5 @@ node default {
   # Example:
   #   class { 'my_class': }
   notify { "Hi there!": }
+  notify { "Bonjour!": }
 }
