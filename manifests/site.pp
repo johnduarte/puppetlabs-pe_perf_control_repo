@@ -32,4 +32,5 @@ node default {
   notify { 'Bonjour!': }
   notify { 'Hola!': }
   notify { 'Guten Tag!': }
+  notify { 'Zdravstvuyte!': }
 }
