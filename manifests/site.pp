@@ -34,4 +34,5 @@ node default {
   notify { 'Guten Tag!': }
   notify { 'Zdravstvuyte!': }
   notify { 'Asalaam alaikum!': }
+  notify { 'Konnichiwa!': }
 }
