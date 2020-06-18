@@ -33,4 +33,5 @@ node default {
   notify { 'Hola!': }
   notify { 'Guten Tag!': }
   notify { 'Zdravstvuyte!': }
+  notify { 'Asalaam alaikum!': }
 }
