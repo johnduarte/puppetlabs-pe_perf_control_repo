@@ -36,4 +36,5 @@ node default {
   notify { 'Asalaam alaikum!': }
   notify { 'Konnichiwa!': }
   notify { 'Namaste, Namaskar!': }
+  notify { 'Shalom!': }
 }
