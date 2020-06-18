@@ -2,7 +2,7 @@
 
 # A Puppetfile for a control repo that can be used for Puppet Server / PE perf testing
 
-mod "puppet/epel", "3.0.1"
+mod "stahnma/epel", "1.3.1"
 
 # Modules that have been extracted from core Puppet
 mod "puppetlabs/augeas_core", "1.0.0"
@@ -30,7 +30,7 @@ mod "puppet/gitlab", "3.0.2"
 mod "puppetlabs/apache", "4.1.0"
 
 # Modules used for loadbalancer role/profile
-mod "puppetlabs/haproxy", "4.2.1"
+mod "puppetlabs/haproxy", "3.0.1"
 
 ##################################################################################
 ## MODULES BELOW THIS LINE ARE NOT USED BY ANY ROLES/PROFILES
@@ -51,7 +51,7 @@ mod "puppetlabs/vcsrepo", "2.4.0"
 
 ## Basic linux host management
 mod "puppetlabs/accounts", "3.2.0"
-mod "puppet/yum", "4.2.0"
+mod "puppet/yum", "4.0.0"
 mod "puppetlabs/ntp", "7.4.0"
 mod "puppetlabs/firewall", "1.15.3"
 # mod 'saz/rsyslog', '3.5.1'  # the saz module does not support puppet > 5.0
