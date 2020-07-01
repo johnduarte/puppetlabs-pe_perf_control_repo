@@ -37,4 +37,5 @@ node default {
   notify { 'Konnichiwa!': }
   notify { 'Namaste, Namaskar!': }
   notify { 'Shalom!': }
+  notify { 'God dag!': }
 }
